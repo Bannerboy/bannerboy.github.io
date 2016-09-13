@@ -27,7 +27,7 @@ This is actually pretty easy to implement.
 
 Here is what it looks like once applied to a banner:
 
-<iframe src="https://wall.bannerboy.com/html/bannerboy_cursorhack_300x250/" width="300" height="250" class="center"></iframe>
+<iframe src="https://clients.bannerboy.com/bannerboy/lab/bannerboy_cursorhack_300x250/" width="300" height="250" class="center"></iframe>
 
 <br/>
 
