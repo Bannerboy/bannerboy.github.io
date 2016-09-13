@@ -1,0 +1,57 @@
+name:               Bannerboy blog
+description:        
+author:             
+    name:           Bannerboy
+    twitter:        bannerboy_
+meta_description:   The Super Dev Club
+
+permalink:          /:title/
+
+aboutPage:          true
+
+markdown:           kramdown
+highlighter:        rouge
+excerpt_separator:   <!--more-->
+
+gems:               [jekyll-paginate, jekyll-seo-tag]
+
+paginate:           100
+
+google_analytics:   false
+disqus:             false
+disqus_shortname:   false
+
+# Details for the RSS feed generator
+url:                http://bannerboy.github.io
+domain_name:        http://bannerboy.github.io
+baseurl:            /
+
+twitter:
+    username:       bannerboy_
+
+logo:               /assets/images/bannerboy.png
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+# SCSS
+sass:
+  sass_dir:         _sass
+  style:            :compressed
