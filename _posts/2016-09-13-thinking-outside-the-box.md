@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Think outside the box
+title: Thinking outside the box
 category: code
 taxonomy:
     tag: [lab, experiment, javascript, canvas]
@@ -13,7 +13,7 @@ author: axel
 
 ![Outside the box](/assets/images/think-outside-the-box.gif){: .center .image-zoom}
 
-## Actually, draw outside the box
+## Actually, drawing outside the box
 
 Few weeks ago, I stumbled upon [an experiment](http://benjaminbenben.com/){: target="_blank"} by [@benjaminbenben](https://twitter.com/benjaminbenben){: target="_blank"} where he was drawing a shape outside of the window.
 
@@ -27,7 +27,7 @@ This is actually pretty easy to implement.
 
 Here is what it looks like once applied to a banner:
 
-<iframe src="http://wall.bannerboy.com/html/bannerboy_cursorhack_300x250/" width="300" height="250" class="center"></iframe>
+<iframe src="https://wall.bannerboy.com/html/bannerboy_cursorhack_300x250/" width="300" height="250" class="center"></iframe>
 
 <br/>
 
